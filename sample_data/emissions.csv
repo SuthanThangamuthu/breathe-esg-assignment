@@ -1,0 +1,4 @@
+category,record_type,value,unit
+SCOPE1,Electricity,500,kg
+SCOPE2,Fuel,12,ton
+SCOPE3,Travel,1500,kg
