@@ -9,7 +9,7 @@ from .services.csv_processor import process_csv
 def upload_emissions(request):
 
     file = request.FILES.get("file")
-    company_name = request.POST.get("company")
+    company_name = request.POST.get("company_name")
     source_type = request.POST.get("source_type")
 
     if not file:
